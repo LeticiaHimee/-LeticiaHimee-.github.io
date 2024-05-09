@@ -47,8 +47,8 @@ h1 {
 }
 
 .gradient {
-    background: linear-gradient(to right, #7a4203, #e47d1cb4, #803e05);
-
+    background: linear-gradient(to right, #522d02, #f7d9bdcb, #f5dcbe);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -57,7 +57,7 @@ h2 {
     color: #A4641D;
 }
 
-p {
+.p {
     font-size: 30px;
     color: #A8815E;
     margin: 90px;
@@ -71,13 +71,6 @@ p {
 
 }
 
-
-.slideshow {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: 50%;
-}
 
 .alinhar {
     display: flex;
@@ -182,6 +175,23 @@ body::before {
     color: #f0e2d7;
 }
 
+.footer{
+    background-color: rgba(155, 82, 13, 0.486);
+    border-radius: 15px;
+    padding: 70px;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.footer-contatos{
+    color: #E6DFD5;
+}
+
+.p-contat{
+    color: #f0e2d7;
+    font-family: "NewYork";
+    font-size: 25px;
+}
 
 form {
     margin: 20px;
@@ -215,10 +225,8 @@ input {
 }
 */
 
-
-nav {
+header {
     background: linear-gradient(to right, #a15c0d, #7c3c03);
-
 
     height: 132px;
     width: auto;
