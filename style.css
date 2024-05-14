@@ -176,23 +176,28 @@ body::before {
 }
 
 .footer{
-    background-color: rgba(155, 82, 13, 0.486);
+    display: flex;
+    background-color: rgb(117, 63, 12);
     border-radius: 15px;
     padding: 70px;
     margin-top: 10px;
     position: relative;
-margin-left: 70px ;
+    justify-content: space-between;
+    color: #f0e2d7;
+    font-family: "Voguella";
+    font-size: 25px;
+    text-decoration: none; 
 }
 
 .footer-contatos{
     color: #E6DFD5;
+    
+}
+.p-contat{
+    text-decoration: none; 
+    color: inherit;
 }
 
-.p-contat{
-    color: #f0e2d7;
-    font-family: "NewYork";
-    font-size: 25px;
-}
 
 form {
     margin: 20px;
