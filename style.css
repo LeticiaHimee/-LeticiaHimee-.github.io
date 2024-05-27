@@ -24,7 +24,7 @@
     font-style: normal;
 }
 
-var cor {
+:root {
 
     --cormarrom1: #E6DFD5;
     --cormarrom2: #A8815E;
@@ -179,19 +179,68 @@ body::before {
     display: flex;
     background-color: rgb(117, 63, 12);
     border-radius: 15px;
-    padding: 70px;
+    padding: 60px;
     margin-top: 10px;
     position: relative;
     justify-content: space-between;
     color: #f0e2d7;
     font-family: "Voguella";
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
+
 }
 
 .footer-contatos {
     color: #E6DFD5;
 
+}
+
+.a-footer {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.li-footer {
+    list-style-type: none;
+    margin: 10px;
+    transition:  0.3s ease;
+}
+
+.li-footer:hover {
+
+    transform: translateX(10px);
+
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 4px;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    color: var(--cormarrom2);
+    background-color: var(--cormarrom1);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+    .social-icons{
+        display: flex;
+        gap: 5px;
+        
+    }
+
+
+.social-icon:hover {
+    color: var(--cormarrom1);
+    background-color: var(--cormarrom3);
+    transform: scale(1.2);
 }
 
 .p-contat {
@@ -222,21 +271,15 @@ input {
 }
 
 
-/*img{
-    opacity: 90%;
-    width: 300px;
-    height: auto;
-    border: solid #A4641D 5px;
-    border-radius: 100%;
-   
-}
-*/
-
 header {
     background: linear-gradient(to right, #a15c0d, #7c3c03);
     position: fixed;
     top: 0;
     width: 2000px;
+    filter: none;
+    filter: none;
+    z-index: 1000;
+    /* Assegura que o header fica acima de outros elementos */
 }
 
 .ul {
@@ -259,7 +302,7 @@ header {
     color: #fff;
 }
 
-a:hover {
+/*a:hover {
     color: #f7e0cd;
 
 }
